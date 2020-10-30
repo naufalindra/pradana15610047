@@ -37,12 +37,14 @@ li {
 .copy-container h1 {
   font-size: 140px;
   color: #F0F8FF;
-  width: 200px;
+  width: 50px;
   margin: 0 auto;
 }
 
 .copy-container h2 {
   font-size: 60px;
+  width: 50px;
+  margin: 0 auto;
 }
 
 .copy-container span {
