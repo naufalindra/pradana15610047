@@ -32,6 +32,7 @@ li {
   height: 500px;
   background-image: url(coffee-background-9.jpg);
   background-size: cover;
+  margin: 0 auto;
 }
 
 .copy-container h1 {
