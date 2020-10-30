@@ -28,13 +28,15 @@ li {
   background-color: #DEB887;
 }
 
-.gambarkopi1 {
-  width:500px
-  height:200px
+.copy-container {
+  height: 500px;
+  background-image: url(coffee-background-9.jpg);
+  background-size: cover;
 }
 
 .copy-container h1 {
   font-size: 140px;
+  color: #F0F8FF;
 }
 
 .copy-container h2 {
