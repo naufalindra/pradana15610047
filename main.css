@@ -5,21 +5,8 @@
 }
 .v1_2 {
   width: 100%;
-  height: 1024px;
+  height: 1026px;
   background: rgba(255,255,255,1);
-  opacity: 1;
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  overflow: hidden;
-}
-.v1_19 {
-  width: 100%;
-  height: 100%;
-  background: url("latte.jpg");
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
   opacity: 1;
   position: absolute;
   top: 0px;
@@ -56,48 +43,15 @@
   color: rgba(0,0,0,1);
   position: absolute;
   top: 0px;
-  left: 10px;
+  left: 19px;
   font-family: Roboto;
   font-weight: Regular;
   font-size: 30px;
   opacity: 1;
   text-align: center;
 }
-.v1_23 {
-  width: 128px;
-  color: rgba(0,0,0,1);
-  position: absolute;
-  top: 61px;
-  left: 256px;
-  font-family: Roboto;
-  font-weight: Regular;
-  font-size: 20px;
-  opacity: 1;
-  text-align: center;
-}
-.v1_25 {
-  width: 128px;
-  color: rgba(0,0,0,1);
-  position: absolute;
-  top: 61px;
-  left: 128px;
-  font-family: Roboto;
-  font-weight: Regular;
-  font-size: 20px;
-  opacity: 1;
-  text-align: center;
-}
-.v1_24 {
-  width: 128px;
-  color: rgba(0,0,0,1);
-  position: absolute;
-  top: 61px;
-  left: 0px;
-  font-family: Roboto;
-  font-weight: Regular;
-  font-size: 20px;
-  opacity: 1;
-  text-align: center;
+.name {
+  color: #fff;
 }
 .v1_4 {
   width: 100%;
@@ -126,60 +80,15 @@
   overflow: hidden;
 }
 .v1_6 {
-  width: 96px;
-  height: 64px;
+  width: 123px;
+  height: 110px;
   background: rgba(208,30,30,1);
   opacity: 1;
   position: absolute;
-  top: 23px;
-  left: 30px;
+  top: 0px;
+  left: 0px;
   overflow: hidden;
 }
-.v1_11 {
-  width: 70px;
-  color: rgba(0,0,0,1);
-  position: absolute;
-  top: 36px;
-  left: 526px;
-  font-family: Roboto;
-  font-weight: Regular;
-  font-size: 20px;
-  opacity: 1;
-  text-align: center;
-}
-.v1_13 {
-  width: 72px;
-  color: rgba(0,0,0,1);
-  position: absolute;
-  top: 36px;
-  left: 622px;
-  font-family: Roboto;
-  font-weight: Regular;
-  font-size: 20px;
-  opacity: 1;
-  text-align: center;
-}
-.v1_14 {
-  width: 86px;
-  color: rgba(0,0,0,1);
-  position: absolute;
-  top: 36px;
-  left: 720px;
-  font-family: Roboto;
-  font-weight: Regular;
-  font-size: 20px;
-  opacity: 1;
-  text-align: center;
-}
-.v1_15 {
-  width: 92px;
-  color: rgba(0,0,0,1);
-  position: absolute;
-  top: 36px;
-  left: 832px;
-  font-family: Roboto;
-  font-weight: Regular;
-  font-size: 20px;
-  opacity: 1;
-  text-align: center;
+.name {
+  color: #fff;
 }
