@@ -1,191 +1,204 @@
 * {
-  overflow-x: hidden;
-  padding: 0px !important;
-  margin: 0px !important;
+  box-sizing: border-box;
 }
-.v1_2 {
-  width: 100%;
-  height: 1026px;
-  background: rgba(255,255,255,1);
-  opacity: 1;
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  overflow: hidden;
+
+body {
+  margin: 0;
+  font-family: "Lucida Grande";
 }
-.v1_5 {
-  width: 100%;
-  height: 122px;
-  background: url("");
-  background-repeat: no-repeat;
-  background-position: center center;
+
+a {
+  text-decoration: none;
+}
+
+.clear {
+  clear: left;
+}
+
+.container {
+  max-width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.top-wrapper {
+  padding: 180px 0 100px 0;
+  background-image: url(https://prog-8.com/images/html/advanced/top_en.png);
   background-size: cover;
-  padding: 10px 10px;
-  margin: 10px;
-  opacity: 1;
-  position: absolute;
-  top: 904px;
-  left: 0px;
-  overflow: hidden;
-}
-.v1_21 {
-  width: 100%;
-  height: 122px;
-  background: rgba(93,93,93,1);
-  opacity: 1;
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  overflow: hidden;
-}
-.v1_22 {
-  width: 196px;
-  color: rgba(0,0,0,1);
-  position: absolute;
-  top: 0px;
-  left: 19px;
-  font-family: Roboto;
-  font-weight: Regular;
-  font-size: 30px;
-  opacity: 1;
+  color: white;
   text-align: center;
 }
-.name {
-  color: #fff;
+
+.top-wrapper h1 {
+  opacity: 0.7;
+  font-size: 45px;
+  letter-spacing: 5px;
+  margin-bottom: 10px;
 }
-.v1_4 {
+
+.top-wrapper p {
+  opacity: 0.7;
+  margin-bottom: 3px;
+}
+
+.btn-wrapper {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.btn-wrapper p {
+  margin: 10px 0;
+}
+
+.signup {
+  background-color: #239b76;
+}
+
+.facebook {
+  background-color: #3b5998;
+  margin-right: 10px;
+}
+
+.twitter {
+  background-color: #55acee;
+}
+
+.btn {
+  padding: 12px 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+.fa {
+  margin-right: 5px;
+}
+
+header {
+  height: 65px;
   width: 100%;
-  height: 794px;
-  background: url("../images/v1_4.png");
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  opacity: 1;
-  position: absolute;
-  top: 110px;
-  left: 0px;
-  overflow: hidden;
+  background-color: rgba(34, 49, 52, 0.9);
+  position :fixed;
+  top: 0;
+  z-index: 10;
 }
-.v1_3 {
+
+.logo {
+  width: 124px;
+  margin-top: 20px;
+}
+
+.header-left {
+  float: left;
+}
+
+.header-right {
+  float: right;
+  margin-right: -25px;
+}
+
+.header-right a {
+  line-height: 65px;
+  padding: 0 25px;
+  color: white;
+  display: block;
+  float: left;
+  transition: all 0.5s;
+}
+
+.header-right a:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.menu-icon{
+  color: white;
+  float: right;
+  font-size: 25px;
+  padding: 21px 0;
+  display: none;
+}
+
+.lesson-wrapper {
+  padding-bottom: 80px;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: #f7f7f7;
+  text-align: center;
+}
+
+.heading {
+  padding-top: 80px;
+  padding-bottom: 50px;
+  color: #5f5d60;
+}
+
+.heading h2 {
+  font-weight: normal;
+}
+
+.lesson {
+  float: left;
+  width: 25%;
+}
+
+.lesson-icon {
+  position: relative;
+}
+
+.lesson-icon p {
+  position: absolute;
+  top: 44%;
   width: 100%;
-  height: 110px;
-  background: url("../images/v1_3.png");
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  opacity: 1;
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  overflow: hidden;
+  color: white;
 }
-.v1_6 {
-  width: 123px;
-  height: 110px;
-  background: rgba(208,30,30,1);
-  opacity: 1;
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  overflow: hidden;
+
+.text-contents {
+  width: 80%;
+  display: inline-block;
+  margin-top: 15px;
+  font-size: 15px;
+  color: #b3aeb5;
 }
-.v3_3 {
-  width: 104px;
-  height: 61px;
-  background: url("../images/v3_3.png");
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  opacity: 1;
-  position: absolute;
-  top: 24px;
-  left: 453px;
-  overflow: hidden;
+
+.heading h3 {
+  font-weight: normal;
 }
-.v3_4 {
-  width: 104px;
-  color: rgba(0,0,0,1);
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  font-family: Roboto;
-  font-weight: Regular;
-  font-size: 20px;
-  opacity: 1;
+
+.message-wrapper {
+  border-bottom: 1px solid #eee;
+  padding-bottom: 80px;
   text-align: center;
 }
-.v3_6 {
-  width: 104px;
-  height: 61px;
-  background: url("../images/v3_6.png");
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  opacity: 1;
-  position: absolute;
-  top: 24px;
-  left: 557px;
-  overflow: hidden;
+
+.message {
+  padding: 15px 40px;
+  background-color: #5dca88;
+  cursor: pointer;
+  box-shadow: 0 7px #1a7940;
 }
-.v3_7 {
-  width: 104px;
-  color: rgba(0,0,0,1);
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  font-family: Roboto;
-  font-weight: Regular;
-  font-size: 20px;
-  opacity: 1;
-  text-align: center;
+
+.message:active {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
 }
-.v3_8 {
-  width: 104px;
-  height: 61px;
-  background: url("../images/v3_8.png");
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  opacity: 1;
-  position: absolute;
-  top: 24px;
-  left: 661px;
-  overflow: hidden;
+
+footer img {
+  width: 125px;
 }
-.v3_9 {
-  width: 104px;
-  color: rgba(0,0,0,1);
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  font-family: Roboto;
-  font-weight: Regular;
-  font-size: 20px;
-  opacity: 1;
-  text-align: center;
+
+footer p {
+  color: #b3aeb5;
+  font-size: 12px;
 }
-.v3_10 {
-  width: 104px;
-  height: 61px;
-  background: url("../images/v3_10.png");
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  opacity: 1;
-  position: absolute;
-  top: 24px;
-  left: 765px;
-  overflow: hidden;
-}
-.v3_11 {
-  width: 104px;
-  color: rgba(0,0,0,1);
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  font-family: Roboto;
-  font-weight: Regular;
-  font-size: 20px;
-  opacity: 1;
-  text-align: center;
+
+footer {
+  padding-top: 30px;
+  padding-bottom: 20px;
 }
