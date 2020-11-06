@@ -82,25 +82,12 @@
   left: 0px;
   overflow: hidden;
 }
-.v9_15 {
-  width: 142px;
-  height: 84px;
-  background: url("../images/v9_15.png");
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  opacity: 1;
-  position: absolute;
-  top: 952px;
-  left: 60px;
-  overflow: hidden;
-}
 .v9_11 {
   width: 109px;
   color: rgba(0,0,0,1);
   position: absolute;
-  top: 0px;
-  left: 0px;
+  top: 952px;
+  left: 60px;
   font-family: Kanit;
   font-weight: SemiBold;
   font-size: 30px;
@@ -111,8 +98,8 @@
   width: 40px;
   color: rgba(0,0,0,1);
   position: absolute;
-  top: 65px;
-  left: 0px;
+  top: 1017px;
+  left: 60px;
   font-family: Roboto;
   font-weight: Regular;
   font-size: 16px;
@@ -123,8 +110,8 @@
   width: 46px;
   color: rgba(0,0,0,1);
   position: absolute;
-  top: 65px;
-  left: 96px;
+  top: 1017px;
+  left: 156px;
   font-family: Roboto;
   font-weight: Regular;
   font-size: 16px;
