@@ -128,9 +128,6 @@
   left: 0px;
   overflow: hidden;
 }
-.name {
-  color: #fff;
-}
 .v2_34 {
   width: 43px;
   color: rgba(202,202,202,1);
@@ -176,6 +173,28 @@
   font-family: Kanit;
   font-weight: SemiBold;
   font-size: 16px;
+  opacity: 1;
+  text-align: left;
+}
+.v9_29 {
+  width: 94px;
+  height: 39px;
+  background: rgba(196,196,196,1);
+  opacity: 1;
+  position: absolute;
+  top: 30px;
+  left: 62px;
+  overflow: hidden;
+}
+.v9_30 {
+  width: 39px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 38px;
+  left: 89px;
+  font-family: Roboto;
+  font-weight: Regular;
+  font-size: 20px;
   opacity: 1;
   text-align: left;
 }
